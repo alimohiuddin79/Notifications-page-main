@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin: 40px auto;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="head">
+      <div>
+        <h2>Notifications </h2>
+        <span>3</span>
+      </div>
+      <button onclick="">Mark all as read</button>
+    </div>
+    <div class="content">
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/images/avatar-mark-webber.webp" alt="">
+        </div>
+        <div class="card-details">
+          <p><span class="name">Mark Webber</span> reacted to your recent post <span class="task">My first tournament today!</span> <span class="active"></span></p>
+          <p class="time">1m ago</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/images/avatar-angela-gray.webp" alt="">
+        </div>
+        <div class="card-details">
+          <p><span class="name">Angela Gray</span> followed you <span class="active"></span></p>
+          <p class="time">5m ago</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/images/avatar-jacob-thompson.webp" alt="">
+        </div>
+        <div class="card-details">
+          <p><span class="name">Jacob Thompson</span> has joined your group <span class="task">Chess Club</span> <span class="active"></span></p>
+          <p class="time">1day ago</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
+        </div>
+        <div class="card-details">
+          <p><span class="name">Riszky Hasanuddin</span> sent you a private message</p>
+          <p class="time">5days ago</p>
+          <p class="msg">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/images/avatar-kimberly-smith.webp" alt="">
+        </div>
+        <div class="card-details">
+          <p><span class="name">Kimberly Smith</span> commented on your picture</p>
+          <p class="time">1week ago</p>
+        </div>
+        <div class="comment-img">
+          <img src="./assets/images/image-chess.webp" alt="">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/images/avatar-nathan-peterson.webp" alt="">
+        </div>
+        <div class="card-details">
+          <p><span class="name">Nathan Peterson</span> reacted to your recent post <span class="checked">5 end-game strategies to increase your winrate</span></p>
+          <p class="time">2weeks ago</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="./assets/images/avatar-anna-kim.webp" alt="">
+        </div>
+        <div class="card-details">
+          <p><span class="name">Anna Kim</span> left the group <span class="checked">Chess Club</span></p>
+          <p class="time">2weeks ago</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/alimohiuddin79">Ali</a>.
+  </div>
+</body>
+</html>
